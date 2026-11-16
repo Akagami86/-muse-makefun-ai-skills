@@ -1,0 +1,37 @@
+# Muse Make.fun AI Skills
+
+Dua skill untuk membantu Muse AI bekerja lebih terarah.
+
+## 1. Make.fun Supervisor
+Bertugas sebagai pengawas independen yang mengevaluasi:
+- Aturan dan peluang kompetisi.
+- Strategi dan kualitas hasil.
+- Risiko, biaya, waktu, dan kuota agent.
+- Kesiapan submission.
+- Evaluasi setelah kompetisi.
+
+## 2. Creative Strategist
+Bertugas sebagai pemberi ide dan perancang strategi:
+- Menghasilkan ide kreatif dan berbeda.
+- Menemukan peluang kompetisi dan penghasilan.
+- Menganalisis kelayakan setiap ide.
+- Menyusun strategi dan rencana eksekusi.
+- Memberikan brief kepada agent pelaksana.
+
+## Struktur Repository
+
+- README.md
+- makefun-supervisor/SKILL.md
+- creative-strategist/SKILL.md
+
+## Instalasi
+
+Jika Muse mendukung CLI skills.sh, gunakan:
+
+npx skills add Akagami86/-muse-makefun-ai-skills --skill makefun-supervisor
+
+npx skills add Akagami86/-muse-makefun-ai-skills --skill creative-strategist
+
+## Catatan
+
+Skill ini merupakan instruksi kerja untuk agent AI, bukan model GPT-6 dan bukan koneksi langsung ke ChatGPT. Integrasi langsung membutuhkan API atau mekanisme koneksi terpisah.
